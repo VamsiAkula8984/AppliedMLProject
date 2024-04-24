@@ -1,5 +1,5 @@
 # AppliedMLProject
-#**Image Classification using CNN on Cifar10 Dataset**
+## **Image Classification using CNN on Cifar10 Dataset**
 ## About the Dataset
 - Name: CIFAR-10
 - Number of Images: 60000(6000 images per class)
