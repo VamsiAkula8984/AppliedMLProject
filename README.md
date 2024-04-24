@@ -21,8 +21,11 @@ Given an image. We plan to predict whether the image belongs to either one of th
 - The CIFAR-10 dataset is balanced . Each class has 6000 images of which 5000 images are used to train and 1000 images are used to test the model.
 - Because of the fact that that we only have one feature, there is no question of multiple features co-related. The only important feature is the pixel values of the image.
 ### Feature Engineering:
-- With the X values between 0 - 255, it is difficult to train the model. Hence all pixel values are normaklised to 0 - 1 for easy training process.
+- With the X values between 0 - 255, it is difficult to train the model. Hence all pixel values are normalised to 0 - 1 for easy training process.
   ![image](https://github.com/VamsiAkula8984/AppliedMLProject/assets/149032259/e1e420ed-d4af-4b3a-b1d7-8f5d4068b637)
-- Each Y label corresponds to a class. Hence a list named 'classes' is declared with all ten calss categories.
+- Each Y label corresponds to a class. Hence a list named 'classes' is declared with all ten class categories.
   ![image](https://github.com/VamsiAkula8984/AppliedMLProject/assets/149032259/ac9187a1-678f-4b14-8067-f172e6513594)
+## Model Fitting
+### Train / test splitting
+The train / test split for CIFAR-10 dataset is already standardised. The dataset is divided into five training batches and one test batch, each with 10000 images. The test batch contains exactly 1000 randomly-selected images from each class. The training batches contain the remaining images in random order, but some training batches may contain more images from one class than another. Between them, the training batches contain exactly 5000 images from each class.
 
