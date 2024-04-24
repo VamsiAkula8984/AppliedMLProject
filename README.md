@@ -30,13 +30,13 @@ Given an image. We plan to predict whether the image belongs to either one of th
 The train / test split for CIFAR-10 dataset is already standardised. The dataset is divided into five training batches and one test batch, each with 10000 images. The test batch contains exactly 1000 randomly-selected images from each class. The training batches contain the remaining images in random order, but some training batches may contain more images from one class than another. Between them, the training batches contain exactly 5000 images from each class.
 ### Models trained
 - #### Model with two (Convolution + maxpooling) layers and two dense layers with dropout layer
-      ![image](https://github.com/VamsiAkula8984/AppliedMLProject/assets/149032259/0b8865d0-c2d9-4f7a-98c7-a7cc293628ff)
+![image](https://github.com/VamsiAkula8984/AppliedMLProject/assets/149032259/0b8865d0-c2d9-4f7a-98c7-a7cc293628ff)
 
       We started implementing a basic CNN architecture with epochs=10, batch_size=64, validation_split=0.2. With the number of epochs being low, the model fails to predict and its right to say that the model is overfit. We can see below that the model's training accuracy is far less than validation accuracy which is clear indication of model being overfitted.
 ![image](https://github.com/VamsiAkula8984/AppliedMLProject/assets/149032259/bdcbf9b8-a765-4c36-837c-de448f754f68)
 
 - #### Model with four (Convolution + maxpooling) layers and three dense layers with dropout layer
-      ![image](https://github.com/VamsiAkula8984/AppliedMLProject/assets/149032259/22300616-6b91-4ecf-b571-32427f888c20)
+![image](https://github.com/VamsiAkula8984/AppliedMLProject/assets/149032259/22300616-6b91-4ecf-b571-32427f888c20)
 
 Now, to improve the accuracy, the model is now trained with epochs=20, batch_size=64, validation_split=0.2. Two additional convolution layers and a dense layer is added to capture the underlying patterns.
 - #### Model with four (Convolution + maxpooling) layers and three dense layers along with batchNormalization
