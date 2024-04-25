@@ -51,7 +51,7 @@ One of the advantages of using batch normaliation is the Regularization Effect. 
 - The metric we mostly relied on in determining the model architecture is its accuracy - The train and the validation accuracy. We considered the fact that the model performs well when there is less gap between train and validation accuracies.
 ![image](https://github.com/VamsiAkula8984/AppliedMLProject/assets/149032259/61c58cd3-a394-4454-8df5-cbd1739feeaa)
 
--Confusion Matrix
+- Confusion Matrix
 ![image](https://github.com/VamsiAkula8984/AppliedMLProject/assets/149032259/683f2ba9-1af5-4eaa-9ecc-a97051de0d3b)
 ![image](https://github.com/VamsiAkula8984/AppliedMLProject/assets/149032259/2e6e536f-d4f8-4735-9888-c515f780b07c)
 ![image](https://github.com/VamsiAkula8984/AppliedMLProject/assets/149032259/6a198021-c6f1-4e32-b1cb-5b84e3a1ac02)
