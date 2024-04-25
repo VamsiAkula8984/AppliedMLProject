@@ -62,6 +62,7 @@ One of the advantages of using batch normaliation is the Regularization Effect. 
 
 - Man vs Machine
 We have selected 20 images where the model fails to predict from the confusion matrix and asked 16 people to identify the images. The below images shows the comparison between human and model choice.
+
 ![image](https://github.com/VamsiAkula8984/AppliedMLProject/assets/149032259/2e6e536f-d4f8-4735-9888-c515f780b07c)
 ![image](https://github.com/VamsiAkula8984/AppliedMLProject/assets/149032259/6a198021-c6f1-4e32-b1cb-5b84e3a1ac02)
 ![image](https://github.com/VamsiAkula8984/AppliedMLProject/assets/149032259/10eecc09-9b02-4b71-8373-2a3f034db6e4)
