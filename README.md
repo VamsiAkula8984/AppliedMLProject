@@ -38,7 +38,10 @@ We started implementing a basic CNN architecture with epochs=10, batch_size=64, 
 - #### Model with four (Convolution + maxpooling) layers and three dense layers with dropout layer
 ![image](https://github.com/VamsiAkula8984/AppliedMLProject/assets/149032259/22300616-6b91-4ecf-b571-32427f888c20)
 
-Now, to improve the accuracy, the model is now trained with epochs=20, batch_size=64, validation_split=0.2. Two additional convolution layers and a dense layer is added to capture the underlying patterns.
-- #### Model with four (Convolution + maxpooling) layers and three dense layers along with batchNormalization
+Now, to improve the accuracy, the model is now trained with epochs=20, batch_size=64, validation_split=0.2. Two additional convolution layers and a dense layer is added to capture the underlying patterns. From the accuracies below, its evident that the model is overfit. There is a huge difference between training accuracy and validation accuracy which means that the model fails to predict unseen data.
+![image](https://github.com/VamsiAkula8984/AppliedMLProject/assets/149032259/a1dffed2-856a-41e3-ad31-94cef419948c)
+
+- #### Model with four (Convolution + maxpooling) layers and three dense layers along with batchNormalization and dropout layer
+One of the advantages of using batch normaliation is the Regularization Effect. Batch normalization acts as a form of regularization by adding noise to the activations, which can help prevent overfitting. Hence to minimise the overfitting in the model, a batch normalisation layer is added. The model is now trained with
 
 
