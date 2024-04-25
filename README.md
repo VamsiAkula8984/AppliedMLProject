@@ -22,7 +22,7 @@ Given an image. We plan to predict whether the image belongs to either one of th
 ### Feature Engineering:
 - To expedite the training process, all pixel values are normalised to 0 - 1.
   ![image](https://github.com/VamsiAkula8984/AppliedMLProject/assets/149032259/e1e420ed-d4af-4b3a-b1d7-8f5d4068b637)
-- Each Y label corresponds to a class. Hence a list named 'classes' is declared with all ten class categories.
+- Each Y label corresponds to a class ranging from 0 to 9. Hence a list named 'classes' is mapped to each of the ten class categories for easy readability during prediction.
   ![image](https://github.com/VamsiAkula8984/AppliedMLProject/assets/149032259/ac9187a1-678f-4b14-8067-f172e6513594)
 ## Model Fitting
 ### Train / test splitting
