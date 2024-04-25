@@ -1,4 +1,4 @@
-# AppliedMLProject
+![image](https://github.com/VamsiAkula8984/AppliedMLProject/assets/149032259/308d92af-70b8-4091-bf95-b7a285fd70c3)# AppliedMLProject
 # **Image Classification using CNN on CIFAR-10 Dataset**
 ## About the Dataset
 - Name: CIFAR-10
@@ -60,11 +60,16 @@ One of the advantages of using batch normaliation is the Regularization Effect. 
       - THe model performs well in predicting data from ship and automobile classes.
 
 - Man vs Machine
-
+We have selected 20 images where the model fails to predict from the confusion matrix and asked 16 people to identify the images. The below images shows the comparison between human and model choice.
 ![image](https://github.com/VamsiAkula8984/AppliedMLProject/assets/149032259/2e6e536f-d4f8-4735-9888-c515f780b07c)
 ![image](https://github.com/VamsiAkula8984/AppliedMLProject/assets/149032259/6a198021-c6f1-4e32-b1cb-5b84e3a1ac02)
 ![image](https://github.com/VamsiAkula8984/AppliedMLProject/assets/149032259/10eecc09-9b02-4b71-8373-2a3f034db6e4)
 ![image](https://github.com/VamsiAkula8984/AppliedMLProject/assets/149032259/ef0173d8-3932-4363-9ce1-68aaa30f02bf)
+  - it is observed that 20% of time people failed to properly identify the image.
+  - 60% of time, people identified the images with 60-80% accuracy.
+  - the remaining 20% of time people perfectly predicted the images where the model failed.
+  - In conclusion we can say that the model when considering the instances where our model fails it is considerably difficult for people to identify the image.
+  - Therefore, the model is working with acceptable performance.
 
 ## Improvements and Future Work
 - 
