@@ -41,7 +41,17 @@ We started implementing a basic CNN architecture with epochs=10, batch_size=64, 
 Now, to improve the accuracy, the model is now trained with epochs=20, batch_size=64, validation_split=0.2. Two additional convolution layers and a dense layer is added to capture the underlying patterns. From the accuracies below, its evident that the model is overfit. There is a huge difference between training accuracy and validation accuracy which means that the model fails to predict unseen data.
 ![image](https://github.com/VamsiAkula8984/AppliedMLProject/assets/149032259/a1dffed2-856a-41e3-ad31-94cef419948c)
 
-- #### Model with four (Convolution + maxpooling) layers and three dense layers along with batchNormalization and dropout layer
-One of the advantages of using batch normaliation is the Regularization Effect. Batch normalization acts as a form of regularization by adding noise to the activations, which can help prevent overfitting. Hence to minimise the overfitting in the model, a batch normalisation layer is added. The model is now trained with
+- #### Model with three (Convolution + maxpooling) layers and three dense layers along with batchNormalization and dropout layer
+![image](https://github.com/VamsiAkula8984/AppliedMLProject/assets/149032259/12914fed-1727-42e0-8750-9dc66b197511)
+
+One of the advantages of using batch normaliation is the Regularization Effect. Batch normalization acts as a form of regularization by adding noise to the activations, which can help prevent overfitting. Hence to minimise the overfitting in the model, a batch normalisation layer is added. The model is now trained with epochs=20, batch_size=50, validation_split=0.2. The model ends up with a training accuracy of 81.69% and validation accuracy of nearly 70.6%. The test accuracy of the model is 70.3%. Clearly this model performs well when compared to other models.
+![image](https://github.com/VamsiAkula8984/AppliedMLProject/assets/149032259/d5e472a9-33c9-42ca-8a90-2a36aaa0a43b)
+![image](https://github.com/VamsiAkula8984/AppliedMLProject/assets/149032259/5f16a96b-bbfa-46a8-ac0a-62a69f5b55c4)
+
+## Validation / metrics
+
+
+
+
 
 
