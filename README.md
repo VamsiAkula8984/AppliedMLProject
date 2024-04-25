@@ -5,8 +5,7 @@
 - Number of Images: 60000(6000 images per class)
 - Image Size: 32x32x3
 - Number of classes: 10 [airplane, automobile, bird, cat, deer, dog, frog, horse, ship, truck]
--Here are the classes in the dataset, as well as 10 random images from each:
-![image](https://github.com/VamsiAkula8984/AppliedMLProject/assets/149032259/c76221e9-0a91-4005-9980-a61eee9c9fe2)
+-Here are the classes in the dataset, as well as 10 random images from each:![image](https://github.com/VamsiAkula8984/AppliedMLProject/assets/149032259/c76221e9-0a91-4005-9980-a61eee9c9fe2)
 
 - Train/Test Split: 50000/10000
 - Description: The dataset is divided into five training batches and one test batch, each with 10000 images. The test batch contains exactly 1000 randomly-selected images from each class. The training batches contain the remaining images in random order, but some training batches may contain more images from one class than another. Between them, the training batches contain exactly 5000 images from each class.
