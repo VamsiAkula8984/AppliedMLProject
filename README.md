@@ -1,4 +1,4 @@
-![image](https://github.com/VamsiAkula8984/AppliedMLProject/assets/149032259/308d92af-70b8-4091-bf95-b7a285fd70c3)# AppliedMLProject
+# AppliedMLProject
 # **Image Classification using CNN on CIFAR-10 Dataset**
 ## About the Dataset
 - Name: CIFAR-10
