@@ -68,16 +68,9 @@ We have selected 20 images where the model fails to predict from the confusion m
   - it is observed that 20% of time people failed to properly identify the image.
   - 60% of time, people identified the images with 60-80% accuracy.
   - the remaining 20% of time people perfectly predicted the images where the model failed.
-  - In conclusion we can say that the model when considering the instances where our model fails it is considerably difficult for people to identify the image.
+  - In conclusion we can say when considering the instances where our model fails, it is considerably difficult for people to identify the image.
   - Therefore, the model is working with acceptable performance.
 
-## Improvements and Future Work
-- 
-
-
-
-
-
-
-
-
+## Improvements
+- The main drawback of this model can be found in images of low quality. This model can be bettered with better quality images.
+- We can also try to increase the number of images in the dataset by applying image augmentation techniques like scaling, rotations etc on the images.
