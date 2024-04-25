@@ -72,5 +72,5 @@ We have selected 20 images where the model fails to predict from the confusion m
   - Therefore, the model is working with acceptable performance.
 
 ## Improvements
-- The main drawback of this model can be found in images of low quality. This model can be bettered with better quality images.
+- The main drawback of this model can be found in images with low quality. This model can be bettered with better quality images.
 - We can also try to increase the number of images in the dataset by applying image augmentation techniques like scaling, rotations etc on the images.
