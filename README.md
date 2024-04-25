@@ -11,7 +11,7 @@
 - Description: The dataset is divided into five training batches and one test batch, each with 10000 images. The test batch contains exactly 1000 randomly-selected images from each class. The training batches contain the remaining images in random order, but some training batches may contain more images from one class than another. Between them, the training batches contain exactly 5000 images from each class.
 - More about the dataset in the following [link](https://www.cs.toronto.edu/%7Ekriz/cifar.html)
 ## plan
-Given an image. We plan to predict whether the image belongs to either one of the 10 classes in CIFAR-10 dataset. In doing so, we will be trying to come up with a CNN architecture that can effectively predict to which an image belongs to.
+Given an image. We plan to predict whether the image belongs to either one of the 10 classes in CIFAR-10 dataset. In doing so, we will be trying to come up with a CNN architecture that can effectively predict to which class the image belongs to.
 ## Process Overview
 - From the title itself, it is evident that the model uses a CNN architecture to train the dataset. So, we decided to start with a simple CNN and later, add a combination of convolution and Maxpooling layers and tune hyper parameters to come up with the best model.
 ## Exploratory data analysis
