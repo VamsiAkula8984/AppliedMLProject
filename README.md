@@ -15,12 +15,12 @@ Given an image. We plan to predict whether the image belongs to either one of th
 ## Process Overview
 - From the title itself, it is evident that the model uses a CNN architecture to train the dataset. So, we decided to start with a simple CNN and later, add a combination of convolution and Maxpooling layers and tune hyper parameters to come up with the best model.
 ## Exploratory data analysis
-- The X here is 32x32x3 dimensional image. A 3D array. Y is a int label value corresponding to one of the 10 classes.
+- The X here is 32x32x3 dimensional image, a 3D array. Y is a int label value corresponding to one of the 10 classes.
   ![image](https://github.com/VamsiAkula8984/AppliedMLProject/assets/149032259/b48c01d7-bf11-4a5d-b8d9-f699f3f4dc3f)
 - The CIFAR-10 dataset is balanced . Each class has 6000 images of which 5000 images are used to train and 1000 images are used to test the model.
 - Because of the fact that that we only have one feature, there is no question of multiple features co-related.
 ### Feature Engineering:
-- With the X values between 0 - 255, it is difficult to train the model. Hence all pixel values are normalised to 0 - 1 for easy training process.
+- To expedite the training process, all pixel values are normalised to 0 - 1.
   ![image](https://github.com/VamsiAkula8984/AppliedMLProject/assets/149032259/e1e420ed-d4af-4b3a-b1d7-8f5d4068b637)
 - Each Y label corresponds to a class. Hence a list named 'classes' is declared with all ten class categories.
   ![image](https://github.com/VamsiAkula8984/AppliedMLProject/assets/149032259/ac9187a1-678f-4b14-8067-f172e6513594)
